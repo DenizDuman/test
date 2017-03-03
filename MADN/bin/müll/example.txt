@@ -1,0 +1,46 @@
+'''
+Client: anmelden;christoph
+Server: SPIELE;[]
+Server: SPIELE;['cool']
+beitreten;cool
+Client: 
+Server: PLAYER;deniz;christoph
+Server: START;deniz;christoph;3
+Server: {};christoph;4
+ziehen;0
+Client: Server: {};deniz;6
+Server: {0: 0};deniz;6
+Server: {6: 0};deniz;6
+Server: {0: 0, 6: 0};deniz;1
+ziehen;0
+Client: Server: ERROR Du bist nicht dran
+Server: {1: 0, 6: 0};christoph;6
+ziehen;-1
+Client: Server: {1: 0, 10: 1, 6: 0};christoph;4
+ziehen;6
+Client: Server: ERROR Zug ungueltig
+ziehen;10
+Client: Server: {1: 0, 14: 1, 6: 0};deniz;5
+Server: {1: 0, 11: 0, 14: 1};christoph;3
+ziehen;14
+Client: Server: {1: 0, 17: 1, 11: 0};deniz;1
+Server: {2: 0, 17: 1, 11: 0};christoph;2
+ziehen;17
+Client: Server: {2: 0, 19: 1, 11: 0};deniz;5
+Server: {16: 0, 2: 0, 19: 1};christoph;6
+ziehen;-1
+Client: Server: {16: 0, 2: 0, 19: 1, 10: 1};christoph;4
+ziehen;10
+Client: Server: {16: 0, 2: 0, 19: 1, 14: 1};deniz;6
+Server: {16: 0, 19: 1, 8: 0, 14: 1};deniz;2
+Server: {16: 0, 19: 1, 10: 0, 14: 1};christoph;1
+ziehen;19
+Client: Server: {16: 0, 20: 1, 10: 0, 14: 1};deniz;3
+Server: {19: 0, 20: 1, 10: 0, 14: 1};christoph;2
+ziehen;14
+Client: Server: {16: 1, 19: 0, 20: 1, 10: 0};deniz;4
+Server: {16: 1, 19: 0, 20: 1, 14: 0};christoph;5
+ziehen;16
+Client: Server: {14: 0, 19: 0, 20: 1, 21: 1};deniz;1
+Server: {14: 0, 20: 0, 21: 1};christoph;3
+'''

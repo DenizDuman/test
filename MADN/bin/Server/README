@@ -1,0 +1,13 @@
+README
+
+anmelden;NAME
+[bsp: anmelden;Stefanie]
+neues_spiel;SPIELNAME;SPIELERZAHL
+[bsp: neues_spiel;X;2]
+beitreten;SPIELNAME
+[bsp: beitreten;X]
+ziehen;FIGURPLATZ
+[bsp: ziehen;10]
+[bsp: ziehen;-1 für aus dem Haus oder wenn der Spieler nicht ziehen kann]
+spiel_verlassen
+close/bye/quit beendet das Spiel
